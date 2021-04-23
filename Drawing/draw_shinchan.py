@@ -17,7 +17,7 @@ def myPosition(x, y):
 pensize(2)
 
 
-def ankur():
+def main():
     fillcolor('#ffec40')
     begin_fill()
     right(25)
@@ -574,7 +574,7 @@ def allEyes():
     myallEyes2(95, 270)
 
 
-ankur()
+main()
 allLegs()
 myShirt()
 myHead()
