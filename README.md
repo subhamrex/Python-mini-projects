@@ -3,7 +3,7 @@
  
  1. Python 3D Animation using vpython
  
-  ![ScreenShot](https://i.imgur.com/AdbKCzS.png)
+  ![ScreenShot](https://i.imgur.com/34dE1Lm.gif)
 
 
  2. Drawing using turtle
