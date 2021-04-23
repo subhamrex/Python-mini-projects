@@ -2,13 +2,13 @@ from turtle import *
 
 
 # Doraemon with Python Turtle
-def ankur(x, y):
+def main(x, y):
     penup()
     goto(x, y)
     pendown()
 
 
-def aankha():
+def eye():
     fillcolor("#ffffff")
     begin_fill()
 
@@ -27,34 +27,34 @@ def aankha():
     end_fill()
 
 
-def daari():
-    ankur(-32, 135)
+def hair():
+    main(-32, 135)
     seth(165)
     fd(60)
 
-    ankur(-32, 125)
+    main(-32, 125)
     seth(180)
     fd(60)
 
-    ankur(-32, 115)
+    main(-32, 115)
     seth(193)
     fd(60)
 
-    ankur(37, 135)
+    main(37, 135)
     seth(15)
     fd(60)
 
-    ankur(37, 125)
+    main(37, 125)
     seth(0)
     fd(60)
 
-    ankur(37, 115)
+    main(37, 115)
     seth(-13)
     fd(60)
 
 
-def mukh():
-    ankur(5, 148)
+def mouth():
+    main(5, 148)
     seth(270)
     fd(100)
     seth(0)
@@ -63,7 +63,7 @@ def mukh():
     circle(-120, 100)
 
 
-def muflar():
+def colar():
     fillcolor('#e70010')
     begin_fill()
     seth(0)
@@ -78,8 +78,8 @@ def muflar():
     end_fill()
 
 
-def nak():
-    ankur(-10, 158)
+def nose():
+    main(-10, 158)
     seth(315)
     fillcolor('#e70010')
     begin_fill()
@@ -87,27 +87,27 @@ def nak():
     end_fill()
 
 
-def black_aankha():
+def black_eye():
     seth(0)
-    ankur(-20, 195)
+    main(-20, 195)
     fillcolor('#000000')
     begin_fill()
     circle(13)
     end_fill()
 
     pensize(6)
-    ankur(20, 205)
+    main(20, 205)
     seth(75)
     circle(-10, 150)
     pensize(3)
 
-    ankur(-17, 200)
+    main(-17, 200)
     seth(0)
     fillcolor('#ffffff')
     begin_fill()
     circle(5)
     end_fill()
-    ankur(0, 0)
+    main(0, 0)
 
 
 def face():
@@ -123,21 +123,21 @@ def face():
     seth(215)
     circle(120, 100)
     end_fill()
-    ankur(63.56, 218.24)
+    main(63.56, 218.24)
     seth(90)
-    aankha()
+    eye()
     seth(180)
     penup()
     fd(60)
     pendown()
     seth(90)
-    aankha()
+    eye()
     penup()
     seth(180)
     fd(64)
 
 
-def taauko():
+def bottom():
     penup()
     circle(150, 40)
     pendown()
@@ -148,19 +148,19 @@ def taauko():
 
 
 def Doraemon():
-    taauko()
+    bottom()
 
-    muflar()
+    colar()
 
     face()
 
-    nak()
+    nose()
 
-    mukh()
+    mouth()
 
-    daari()
+    hair()
 
-    ankur(0, 0)
+    main(0, 0)
 
     seth(0)
     penup()
@@ -222,7 +222,7 @@ def Doraemon():
     circle(-30)
     end_fill()
 
-    ankur(103.74, -182.59)
+    main(103.74, -182.59)
     seth(0)
     fillcolor('#ffffff')
     begin_fill()
@@ -233,7 +233,7 @@ def Doraemon():
     fd(10)
     end_fill()
 
-    ankur(-96.26, -182.59)
+    main(-96.26, -182.59)
     seth(180)
     fillcolor('#ffffff')
     begin_fill()
@@ -244,7 +244,7 @@ def Doraemon():
     fd(10)
     end_fill()
 
-    ankur(-133.97, -91.81)
+    main(-133.97, -91.81)
     seth(50)
     fillcolor('#ffffff')
     begin_fill()
@@ -252,7 +252,7 @@ def Doraemon():
     end_fill()
     # Doraemon with Python Turtle
 
-    ankur(-103.42, 15.09)
+    main(-103.42, 15.09)
     seth(0)
     fd(38)
     seth(230)
@@ -260,7 +260,7 @@ def Doraemon():
     circle(90, 260)
     end_fill()
 
-    ankur(5, -40)
+    main(5, -40)
     seth(0)
     fd(70)
     seth(-90)
@@ -268,7 +268,7 @@ def Doraemon():
     seth(0)
     fd(70)
 
-    ankur(-103.42, 15.09)
+    main(-103.42, 15.09)
     fd(90)
     seth(70)
     fillcolor('#ffd200')
@@ -292,9 +292,9 @@ def Doraemon():
     seth(90)
     fd(15)
     dot(10)
-    ankur(0, -150)
+    main(0, -150)
 
-    black_aankha()
+    black_eye()
 
 
 if __name__ == '__main__':
@@ -302,6 +302,6 @@ if __name__ == '__main__':
     pensize(3)
     speed(9)
     Doraemon()
-    ankur(100, -300)
+    main(100, -300)
     write('Doraemon', font=("Bradley Hand ITC", 30, "bold"))
     mainloop()
