@@ -9,7 +9,7 @@ s = turtle.getscreen()
 t = turtle.Turtle()
 
 
-def jiu():
+def start():
     t.pensize(20)
 
     t.fillcolor(color1)
@@ -80,7 +80,7 @@ def glass():
     t.end_fill()
 
 
-def jhola():
+def bag():
     t.up()
     t.right(60)
     t.forward(100)
@@ -101,8 +101,8 @@ def jhola():
     t.end_fill()
 
 
-jiu()
+start()
 glass()
-jhola()
+bag()
 
 turtle.done()
