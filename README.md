@@ -11,3 +11,5 @@
    ![Screenhot 2](https://i.imgur.com/3eyIouP.gif)
 
  3. Auto fb login using Solenium.
+ 
+  ![ScreenShot 3](https://i.imgur.com/LVnNB6y.png)
