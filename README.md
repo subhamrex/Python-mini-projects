@@ -2,22 +2,25 @@
  Mini python projects:
  
  1. Python 3D Animation using vpython
- 
-   ![ScreenShot](https://i.imgur.com/34dE1Lm.gif)
+
+  <img src="https://i.imgur.com/34dE1Lm.gif" height="338" width="600">
 
  2. Drawing using turtle
 
-   ![Screenhot 2](https://i.imgur.com/3eyIouP.gif)
+   <img src="https://i.imgur.com/3eyIouP.gif" height="338" width="600">
 
  3. Auto fb login using Solenium.
- 
-   ![ScreenShot 3](https://i.imgur.com/LVnNB6y.png)
 
- 4. YouTube Downloader
+   <img src="https://i.imgur.com/LVnNB6y.png" height="338" width="600">
+
+ 4. YouTube Downloader App
+
+   <img src="https://i.imgur.com/JefZbMp.gif" height="338" width="600">
  
-   ![ScreenShot 4](https://i.imgur.com/JefZbMp.gif)
+ 5.Calculator App with Tkinter
  
- 5.Calculator with Tkinter
- 
-   ![ScreenShot 5](https://i.imgur.com/7WiZvzb.gif)
+   <img src="https://i.imgur.com/7WiZvzb.gif" height="338" width="600">
   
+ 6. Camera App with Tkinter and OpenCV
+    
+   <img src="https://i.imgur.com/GDBk70q.gif" height="338" width="600">
