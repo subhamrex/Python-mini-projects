@@ -24,3 +24,8 @@
  6. Camera App with Tkinter and OpenCV
     
    <img src="https://i.imgur.com/GDBk70q.gif" height="338" width="600">
+   
+ 7. QR code generator using Tkinter and qrcode
+ 
+   <img src="https://i.imgur.com/0AHL3XV.png" height="338" width="600">
+ 
