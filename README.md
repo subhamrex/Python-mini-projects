@@ -29,3 +29,6 @@
  
    <img src="https://i.imgur.com/0AHL3XV.png" height="338" width="600">
  
+ 8. Notepad using Tkinter
+
+   <img src="https://i.imgur.com/sZPYuXp.png" height="338" width="600">
