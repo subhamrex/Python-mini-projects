@@ -34,3 +34,7 @@
    <img src="https://i.imgur.com/sZPYuXp.png" height="338" width="600">
 
  9. Translator
+ 
+ 10. PokeDex App using Tkinter and pypokedex
+ 
+   <img src="https://i.imgur.com/r4byjxm.png" height="338" width="600" alt="pokedex"/> 
